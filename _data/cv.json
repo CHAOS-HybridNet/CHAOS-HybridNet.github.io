@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Shen Chao",
+    "email": "2213404@mail.nankai.edu.cn",
+    "phone": "15719359307",
+    "website": "https://chaos-hybridnet.github.io",
+    "summary": "Currently study at Nankai University.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "TianJing",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
@@ -25,19 +25,19 @@
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "CHAOS-HybridNet",
+        "url": "https://github.com/CHAOS-HybridNet"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Nankai University",
+      "area": "Bachelor of Software Engineering",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     },
