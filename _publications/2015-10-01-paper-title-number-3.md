@@ -1,14 +1,40 @@
 ---
-title: "Paper Title Number 3"
-collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+title: "等距螺线轨道上的链式刚体运动模型"
+
+date: 2024-08
+
+paperurl: 'http://academicpages.github.io/files/A(1).pdf'
+
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+对于问题一,我们构建了等距螺线轨道上的链式刚体运动模型。首先，通过阿基米
+德螺线的极坐标方程描述把手的运动轨迹，并将其转换为直角坐标系。接着，基于刚体
+运动理论，简化了把手在两个点的运动情况，建立了相邻板之间的运动关系模型。在求
+解过程中，使用了两种方法计算把手位置和速度：1.速度迭代法，优化了算法效率；2.
+基于微分的微小步长法，通过逐渐减小增量计算瞬时速度，并设定了收敛阈值，当满足
+条件时认为计算已经收敛。最终，我们得到从初始时刻到300s为止每秒整个舞龙队的
+位置和速度，结果如表1、表2以及附件result1.xlsx所示。
+对于问题二,我们构建了舞龙队盘入过程中的碰撞检测模型。首先，将板凳简化为
+二维平面中的矩形，使用中心点坐标和旋转角度描述每个矩形的位置和方向。通过分离
+轴定理（SAT）检测非相邻矩形之间的碰撞。模型求解中，首先用中心点坐标和旋转矩
+阵描述矩形的位置和方向，然后计算矩形边的法向量作为分离轴，检查顶点投影是否重
+叠。最后，通过建立运动方程和时间步进法，在离散时间步长内更新矩形的位置和角度，
+并使用SAT方法检测碰撞。最后，我们得到舞龙队盘入的终止时刻为412.47s,此时整个
+舞龙队的位置和速度见表3以及附件result2.xlsx。
+对于问题三,我们构建了计算最小调头螺距的模型。首先证明了螺距与龙头前把手
+距离原点之间的反比关系，并确定了最小调头螺距的存在性。模型包括：使用等距螺线
+方程描述盘入路径，确保能进入直径9米的调头区域，并在30厘米到55厘米之间使用
+二分搜索算法确定最小螺距。在求解过程中，设定初始条件，模拟盘入过程，计算把手
+位置和速度，检测碰撞，并通过二分搜索算法优化螺距以满足调头空间要求。最终，我
+们得到满足条件的最小螺距约为0.450391米。
+对于问题四,我们建立了舞龙队调头路径优化模型。首先，分析了调整圆弧的可行
+性，并解释了调头区域与真实调头区域的关系。列举并讨论了各种约束条件，包括碰撞
+约束、最大深度碰撞约束和S型路径弯折约束。然后，基于这些约束对真实调度区间建
+模，求解了不同区间下调头曲线的长度，并找出最短调头路径。通过数值模拟验证了1.7
+米螺距下的碰撞情况，确认了无需考虑真实调度区间半径的约束。最后，基于S型路径
+弯折约束，求解了路径圆弧长度的最小值，得到优化后的调度路径几何信息。最终，我
+们得到最短调头曲线长度为l=12.940776552米，以调头开始时间为零时刻，从−100s
+开始到100s为止，每秒舞龙队的位置和速度详见表4、表5以及附件result4.xlsx。
+对于问题五,借用第四题的模拟过程，我们可以求解出不同龙头前把手速度下，整
+个队伍中把手的最大速度，发现龙头前把手速度和整个队伍中把手的最大速度成线性关
+系，且整个队伍速度小于2m/s，要求前把手速度小于1.7926s。
