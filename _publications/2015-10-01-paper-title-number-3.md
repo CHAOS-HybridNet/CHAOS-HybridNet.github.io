@@ -3,7 +3,7 @@ title: "等距螺线轨道上的链式刚体运动模型"
 
 date: 2024-08
 
-paperurl: 'http://academicpages.github.io/files/A(1).pdf'
+paperurl: 'http://CHAOS-HybridNet.github.io/files/A(1).pdf'
 
 ---
 
