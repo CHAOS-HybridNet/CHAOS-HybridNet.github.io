@@ -22,7 +22,7 @@ repository               : "chaos-hybridnet/chaos-hybridnet.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/you.jpg"
+  avatar           : "../images/you.jpg"
   name             : "Shen Chao"
   pronouns         : # example: "she/her"  
   bio              : ""
