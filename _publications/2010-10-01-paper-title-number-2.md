@@ -4,7 +4,7 @@ title: " Spatial Variable Prediction Problem Based on Co-Kriging
 
 date: 2024-09
 
-paperurl: 'http://academicpages.github.io/files/数维杯.pdf'
+paperurl: 'http://CHAOS-HybridNet.github.io/files/数维杯.pdf'
 
 ---
 
