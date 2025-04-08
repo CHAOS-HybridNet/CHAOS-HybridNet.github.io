@@ -4,7 +4,7 @@ title: "A stacked heterogeneous ensemble learning model"
 date: 2025-02
 
 
-paperurl: 'http://academicpages.github.io/files/2512735.pdf'
+paperurl: 'http://CHAOS-HybridNet.github.io/files/2512735.pdf'
 
 ---
  Thenumberanddistribution of Olympic medals are influenced byavariety of factors, including
